@@ -418,6 +418,7 @@ class SoftwareEngineerApplicant implements PositionObserver {
 
   update(position: string) {
     if (position !== this.position) {
+      console.log('На эту вакансию никто не подписывался.')
       return
     }
 
